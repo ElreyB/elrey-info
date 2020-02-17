@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/elrey-info/static/css/main.36497136.chunk.css",
+    "main.js": "/elrey-info/static/js/main.d3894478.chunk.js",
+    "main.js.map": "/elrey-info/static/js/main.d3894478.chunk.js.map",
+    "runtime-main.js": "/elrey-info/static/js/runtime-main.768fa861.js",
+    "runtime-main.js.map": "/elrey-info/static/js/runtime-main.768fa861.js.map",
+    "static/js/2.1527cff5.chunk.js": "/elrey-info/static/js/2.1527cff5.chunk.js",
+    "static/js/2.1527cff5.chunk.js.map": "/elrey-info/static/js/2.1527cff5.chunk.js.map",
+    "index.html": "/elrey-info/index.html",
+    "precache-manifest.9fb1d70f5d5161dd4bd207e116ea5866.js": "/elrey-info/precache-manifest.9fb1d70f5d5161dd4bd207e116ea5866.js",
+    "service-worker.js": "/elrey-info/service-worker.js",
+    "static/css/main.36497136.chunk.css.map": "/elrey-info/static/css/main.36497136.chunk.css.map",
+    "static/js/2.1527cff5.chunk.js.LICENSE.txt": "/elrey-info/static/js/2.1527cff5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.768fa861.js",
+    "static/js/2.1527cff5.chunk.js",
+    "static/css/main.36497136.chunk.css",
+    "static/js/main.d3894478.chunk.js"
+  ]
+}

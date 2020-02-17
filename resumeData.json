@@ -1,0 +1,182 @@
+{
+  "main": {
+    "name": "Elrey Belmonti",
+    "occupation": "Frontend Developer",
+    "description": "Dance infused developer bridging the gap between art and technology",
+    "image": "profilepic.jpg",
+    "bio": "Having a background in hospitality and performing arts gives me a unique way of looking at code. Always looking at the big picture without losing sight on the details while staying customer focused and to effectively communicate with team and high end clientele. These skills were essential as I worked on high-traffic ecommerce sites for clients with Formidable, freelance gigs, and teaching assistant with Trilogy Education.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "elbelmonti@gmail.com",
+    "phone": "555-555-5555",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Philadelphia",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "https://elreyb.github.io/my-resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ElreyB",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/elreyb",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "email",
+        "url": "mailto:elbelmonti@gmail.com",
+        "className": "fa fa-envelope"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Epicodus / Dev Bootcamp",
+        "degree": "FullStack",
+        "graduated": "August 2017 - Febuaray - 2018",
+        "description": "Hands-on experience coding 8-hours a day building full-stack web applications with HTML,CSS, JavaScript, Ruby on Rails and Angular, Git, Github, Algorithms and actively participated in Engineer Empathy lectures. Focusing on workflow, TDD, pair program, and writing maintainable, readable code. Also, volunteer coaching stress relieving techniques to peers."
+      }
+    ],
+    "work": [
+      {
+        "company": "University of Washington Full Stack Development Bootcamp at Trilogy",
+        "title": "Teaching Assistant",
+        "years": "August 2010 - Feburary 2020",
+        "description": "In-person office hours to answer any questions and help with assignments, Provide articles and videos to support students as they learn, Empower students to become effective researchers and problem solvers, Address students' challenges and give them techniques to over come them"
+      },
+      {
+        "company": "Sharp Dance Company",
+        "title": "Full Stack Freelancer",
+        "years": "March 2019",
+        "description": "Worked with a team of two developers to deliver production ready results. Built custom admin data management dashboard for client"
+      },
+      {
+        "company": "Formidable",
+        "title": "Software Engineer",
+        "years": "August 2018 - August 2019",
+        "description": "Successfully built and deployed multiple customer facing apps. Contributed to Formidable's open source projects. Worked closely with clients to meet tight deadlines. Represented Formidable at meetups, conferences, and talks"
+      },
+      {
+        "company": "ChalkDoc",
+        "title": "Fullstack Intern",
+        "years": "August 2018 - August 2019",
+        "description": "Identify and addressed tech debt. Organized daily goals. Refactored existing code base & reduced total source lines of code by 60%. Ensured consistent and thorough documentation"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Sharp Dance",
+        "year": "2019",
+        "category": "Company dance site",
+        "image": "sharpdance.jpg",
+        "url": "https://elreyb.github.io/sharp-dance/",
+        "github": "https://github.com/ChalkDoc/generator"
+      },
+      {
+        "title": "Epic Goose",
+        "year": "2016",
+        "category": "A choose your own journey story application following the story of 'Goblin Market'",
+        "image": "epic-goose.jpg",
+        "url": "https://elreyb.github.io/epic-goose-1/",
+        "github": "https://github.com/ElreyB/epic-goose-1"
+      },
+      {
+        "title": "Roman Numeral",
+        "year": "2016",
+        "category": "Converter an arabic number to roman numeral and vs versa",
+        "image": "roman.jpg",
+        "url": "https://elreyb.github.io/roman-numeral/",
+        "github": "https://github.com/ElreyB/roman-numeral"
+      },
+      {
+        "title": "SavageX",
+        "year": "2018",
+        "category": "TechStyles",
+        "image": "savagex.jpg",
+        "url": "https://www.savagex.com/"
+      },
+      {
+        "title": "FabKid",
+        "year": "2019",
+        "category": "TechStyles",
+        "image": "fabkids.jpg",
+        "url": "https://www.fabkids.com/"
+      },
+      {
+        "title": "Nuke Carousel",
+        "year": "2018",
+        "category": "Contribution",
+        "image": "nukeCarousel.jpg",
+        "url": "https://github.com/FormidableLabs/nuka-carousel",
+        "github": "https://github.com/FormidableLabs/nuka-carousel"
+      },
+      {
+        "title": "Spectecal",
+        "year": "2018",
+        "category": "Contribution",
+        "image": "spectacle.jpg",
+        "url": "https://formidable.com/open-source/spectacle/",
+        "github": "https://github.com/FormidableLabs/spectacle"
+      },
+      {
+        "title": "ChalkDoc",
+        "year": "2018",
+        "category": "ChalkDoc Internship: This app generates a table of equations base on user's specifications",
+        "image": "chalkdoc.jpg",
+        "url": "https://generator.chalkdoc.com/",
+        "github": "https://github.com/ChalkDoc/generator"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Elrey has the rare combination of technical skill, strategic vision, and team orientation. I asked him and three others to take over the development of a complex application that generates an unlimited number of math problems of an unlimited variety of problem types based on whatever parameters a user inputs. It took just a matter of hours before he had internalized the project code and made a plan to make it considerably more efficient and easy to understand. He works seamlessly on his own and with others, is well-respected and appreciated by his colleagues, and carries and ethic and initiative that lets him bring elegant solutions to complex problems. I was sad to lose him, and whoever gets him next will be very, very lucky to have him.",
+        "user": "Steve Walker"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
