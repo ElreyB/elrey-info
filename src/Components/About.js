@@ -18,6 +18,7 @@ class About extends Component {
     // const bioP = bio.join("\n");
 
     console.log(bio);
+    const bioHtml = bio => bio && bio.map((info, i) => <p key={i}>{info}</p>);
 
     return (
       <section id="about">
@@ -36,8 +37,9 @@ class About extends Component {
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
+            {bioHtml(bio)}
 
-            <p>{bio}</p>
+            {/* <p>{bio}</p> */}
             <div className="row">
               <div className="columns download">
                 <p>
