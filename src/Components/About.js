@@ -25,21 +25,14 @@ class About extends Component {
         <div className="row">
           <div className="three columns">
             <img
-              // className="profile-pic"
+              className="profile-pic"
               src={profilepic}
               alt="Elrey Belmonti Profile Pic"
-              style={{
-                borderRadius: " 100%",
-                minWidth: "20%",
-                minHeight: " 20%"
-              }}
             />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
             {bioHtml(bio)}
-
-            {/* <p>{bio}</p> */}
             <div className="row">
               <div className="columns download">
                 <p>

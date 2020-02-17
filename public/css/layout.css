@@ -229,10 +229,11 @@ ul#nav li.current a {
   line-height: 30px;
   color: #7a7a7a;
 }
+
 #about .profile-pic {
   position: relative;
-  width: 120px;
-  height: 120px;
+  min-width: "20%";
+  min-height: " 20%";
   border-radius: 100%;
 }
 #about .contact-details {
