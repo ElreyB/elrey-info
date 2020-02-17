@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="https://i.gyazo.com/9c78d3cd1fdd0137422d3e7f9d9ead43.gif" alt="Image from Gyazo" width="1000"/>
+![gif](public/images/portfolio.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
