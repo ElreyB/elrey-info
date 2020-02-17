@@ -18,70 +18,41 @@ class Portfolio extends Component {
                   <p>{projects.category}</p>
                 </div>
                 {projects.github ? (
-                  <div
-                    style={{ display: "flex", justifyContent: "space-around" }}
-                  >
-                    <div
-                      style={{
-                        flexBasis: "50%",
-                        textAlign: "center",
-                        height: "84px"
-                      }}
-                    >
+                  <div id="linkWrapper">
+                    <div className="twoLinks">
                       <a
                         href={projects.url}
                         title={projects.title}
                         target="_blank"
                         rel="noopener"
                       >
-                        <div
-                          className="link-icon"
-                          style={{ display: "contents" }}
-                        >
+                        <div className="link-icon">
                           <i className="fa fa-link" aria-hidden="true"></i>
                         </div>
                       </a>
                     </div>
-                    <div
-                      style={{
-                        flexBasis: "50%",
-                        textAlign: "center",
-                        height: "84px"
-                      }}
-                    >
+                    <div className="twoLinks">
                       <a
                         href={projects.github}
                         title={projects.title}
                         target="_blank"
                         rel="noopener"
                       >
-                        <div
-                          className="link-icon"
-                          style={{ display: "contents" }}
-                        >
+                        <div className="link-icon">
                           <i className="fa fa-github" aria-hidden="true"></i>
                         </div>
                       </a>
                     </div>
                   </div>
                 ) : (
-                  <div
-                    style={{
-                      flexBasis: "100%",
-                      textAlign: "center",
-                      height: "84px"
-                    }}
-                  >
+                  <div className="oneLinks">
                     <a
                       href={projects.url}
                       title={projects.title}
                       target="_blank"
                       rel="noopener"
                     >
-                      <div
-                        className="link-icon"
-                        style={{ display: "contents" }}
-                      >
+                      <div className="link-icon">
                         <i className="fa fa-link" aria-hidden="true"></i>
                       </div>
                     </a>
@@ -103,7 +74,6 @@ class Portfolio extends Component {
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
-              style={{ display: "flex", flexWrap: "wrap" }}
             >
               {projects}
             </div>

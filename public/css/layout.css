@@ -129,6 +129,11 @@ header .scrolldown a:hover {
   color: #11abb0;
 }
 
+h1 #occupation {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap ul,
@@ -477,6 +482,12 @@ ul#nav li.current a {
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
 }
+
+#portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .portfolio-item .item-wrap {
   background: #fff;
   overflow: hidden;
@@ -512,8 +523,10 @@ ul#nav li.current a {
 
   background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.portfolio-item .item-wrap {
   display: block;
+}
+.portfolio-item .item-wrap .link-icon {
   color: #fff;
   height: 30px;
   width: 30px;
@@ -536,6 +549,28 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
+
+#linkWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.twoLinks {
+  flex-basis: 50%;
+}
+.twoLinks,
+.oneLinks {
+  text-align: center;
+  height: 84px;
+}
+.oneLinks {
+  flex-basis: "100%";
+}
+
+div .link-icon {
+  display: contents;
+}
+
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
 }

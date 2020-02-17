@@ -65,10 +65,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <h1 className="responsive-headline">
-              {name}{" "}
-              <span style={{ fontSize: "24px", letterSpacing: "0.5px" }}>
-                {occupation}
-              </span>
+              {name} <span id="occupation">{occupation}</span>
             </h1>
             <h3>
               Heading to {city}. {description}.
