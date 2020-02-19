@@ -4,16 +4,18 @@
  * Open Sans
 ================================================================================ */
 @font-face {
-    font-family: 'opensans-regular';
-    src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
-    src: url('fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),
-         url('fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "opensans-regular";
+  src: url("fonts/opensans/OpenSans-Regular-webfont.eot");
+  src: url("fonts/opensans/OpenSans-Regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/opensans/OpenSans-Regular-webfont.woff") format("woff"),
+    url("fonts/opensans/OpenSans-Regular-webfont.ttf") format("truetype"),
+    url("fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
+/* @font-face {
     font-family: 'opensans-italic';
     src: url('fonts/opensans/OpenSans-Italic-webfont.eot');
     src: url('fonts/opensans/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
@@ -62,18 +64,19 @@
          url('fonts/opensans/OpenSans-SemiboldItalic-webfont.svg#open_sanssemibold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+} */
 @font-face {
-    font-family: 'opensans-bold';
-    src: url('fonts/opensans/OpenSans-Bold-webfont.eot');
-    src: url('fonts/opensans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),
-         url('fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype'),
-         url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "opensans-bold";
+  src: url("fonts/opensans/OpenSans-Bold-webfont.eot");
+  src: url("fonts/opensans/OpenSans-Bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/opensans/OpenSans-Bold-webfont.woff") format("woff"),
+    url("fonts/opensans/OpenSans-Bold-webfont.ttf") format("truetype"),
+    url("fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
+/* @font-face {
     font-family: 'opensans-bold-italic';
     src: url('fonts/opensans/OpenSans-BoldItalic-webfont.eot');
     src: url('fonts/opensans/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
@@ -102,12 +105,12 @@
          url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.svg#open_sansextrabold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}  */
 
 /*
  * Libre Baskerville
-================================================================================ */   
-@font-face {
+================================================================================ */
+/* @font-face {
     font-family: 'librebaskerville-bold';
     src: url('fonts/librebaskerville/librebaskerville-bold-webfont.eot');
     src: url('fonts/librebaskerville/librebaskerville-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -126,32 +129,34 @@
          url('fonts/librebaskerville/librebaskerville-italic-webfont.svg#libre_baskervilleitalic') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+} */
 @font-face {
-    font-family: 'librebaskerville-regular';
-    src: url('fonts/librebaskerville/librebaskerville-regular-webfont.eot');
-    src: url('fonts/librebaskerville/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/librebaskerville/librebaskerville-regular-webfont.woff') format('woff'),
-         url('fonts/librebaskerville/librebaskerville-regular-webfont.ttf') format('truetype'),
-         url('fonts/librebaskerville/librebaskerville-regular-webfont.svg#libre_baskervilleregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "librebaskerville-regular";
+  src: url("fonts/librebaskerville/librebaskerville-regular-webfont.eot");
+  src: url("fonts/librebaskerville/librebaskerville-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/librebaskerville/librebaskerville-regular-webfont.woff")
+      format("woff"),
+    url("fonts/librebaskerville/librebaskerville-regular-webfont.ttf")
+      format("truetype"),
+    url("fonts/librebaskerville/librebaskerville-regular-webfont.svg#libre_baskervilleregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 /*
  * FIXED for Font-Face Chrome Rendering
 ================================================================================ */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-
-   @font-face {
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* @font-face {
    font-family: 'opensans-semibold';
    src: url('fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
-   }
+   } */
 
-   @font-face {
-   font-family: 'opensans-bold';
-   src: url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
-   }
-
+  @font-face {
+    font-family: "opensans-bold";
+    src: url("fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold")
+      format("svg");
+  }
 }

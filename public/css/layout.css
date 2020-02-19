@@ -316,10 +316,11 @@ ul#nav li.current a {
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
+  font: 16px/24px "librebaskerville-regular", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
+  font-style: italic;
 }
 #resume .info span {
   margin-right: 5px;
@@ -725,8 +726,9 @@ call-to-action .button {
   color: #0d0d0d;
 }
 #call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
+  font-family: "opensans-bold", sans-serif;
   color: #d8d8d8;
+  font-weight: 300;
 }
 
 /* ------------------------------------------------------------------
@@ -782,7 +784,7 @@ call-to-action .button {
   content: none;
 }
 #testimonials blockquote p {
-  font-family: "librebaskerville-italic", serif;
+  font-family: "librebaskerville-regular", serif;
   padding: 0;
   font-size: 24px;
   line-height: 48px;
@@ -962,8 +964,9 @@ call-to-action .button {
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
+  font: 18px/36px "opensans-regular", sans-serif;
   padding-right: 3%;
+  font-weight: 300;
 }
 #contact .header-col {
   padding-top: 6px;

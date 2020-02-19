@@ -223,7 +223,7 @@ body {
   background: #fff;
   font-family: "opensans-regular", sans-serif;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   color: #838c95;
 
@@ -292,14 +292,16 @@ p img {
   margin: 0;
 }
 p.lead {
-  font: 19px/36px "opensans-light", sans-serif;
+  font: 19px/36px "opensans-regular", sans-serif;
   margin-bottom: 18px;
+  font-weight: 300;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em {
-  font: 15px/30px "opensans-italic", sans-serif;
+  font: 15px/30px "opensans-regular", sans-serif;
+  font-style: italic;
 }
 strong,
 b {
@@ -329,7 +331,7 @@ blockquote:before {
   left: 0;
 }
 blockquote p {
-  font-family: "librebaskerville-italic", serif;
+  font-family: "librebaskerville-regular", serif;
   padding: 0;
   font-size: 18px;
   line-height: 36px;
