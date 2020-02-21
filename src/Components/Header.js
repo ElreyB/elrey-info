@@ -19,7 +19,7 @@ class Header extends Component {
     }
 
     return (
-      <header id="home">
+      <header id="home" className="fadeIn-fast">
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
@@ -62,12 +62,12 @@ class Header extends Component {
           </ul>
         </nav>
 
-        <div className="row banner">
+        <div className="row banner fadeIn-med">
           <div className="banner-text">
             <h1 className="responsive-headline">
               {name} <span id="occupation">{occupation}</span>
             </h1>
-            <h3 className="fade-in" id="about-h3">
+            <h3 className="fadeIn-slow" id="about-h3">
               {description}
             </h3>
             <hr />
