@@ -65,8 +65,17 @@ header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
-  margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+#headline-wrapper {
+  display: "flex";
+  justify-content: "center";
+}
+
+header .banner-text,
+#headline-wrapper {
+  margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
@@ -74,6 +83,9 @@ header .banner-text h3 {
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#about-h3 {
+  min-height: 136px;
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -129,9 +141,12 @@ header .scrolldown a:hover {
   color: #11abb0;
 }
 
-h1 #occupation {
-  font-size: 24px;
+#occupation {
+  font-size: 20px;
   letter-spacing: 0.5px;
+  color: white;
+  align-self: flex-end;
+  margin-left: 8px;
 }
 
 /* primary navigation
@@ -1160,4 +1175,19 @@ footer .social-links li:first-child {
 }
 #go-top a:hover {
   background-color: #0f9095;
+}
+
+@media (max-width: 600px) {
+  #about-h3 {
+    min-height: 180px;
+  }
+
+  h1 .responsive-headline {
+    margin: 0;
+  }
+
+  .responsive-headline,
+  #occupation {
+    flex-basis: 100%;
+  }
 }

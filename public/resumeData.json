@@ -129,7 +129,7 @@
       {
         "title": "Sharp Dance",
         "year": "2019",
-        "category": "Dance company site",
+        "category": "Site for a Philadelphia base dance company",
         "image": "sharpdance.jpg",
         "url": "https://elreyb.github.io/sharp-dance/",
         "github": "https://github.com/ElreyB/sharp-dance"
@@ -153,21 +153,21 @@
       {
         "title": "SavageX",
         "year": "2018",
-        "category": "TechStyles",
+        "category": "TechStyles site for Rihanna lingerie",
         "image": "savagex.jpg",
         "url": "https://www.savagex.com/"
       },
       {
         "title": "FabKid",
         "year": "2019",
-        "category": "TechStyles",
+        "category": "TechStyles site for children appearal",
         "image": "fabkids.jpg",
         "url": "https://www.fabkids.com/"
       },
       {
         "title": "Nuke Carousel",
         "year": "2018",
-        "category": "Contribution",
+        "category": "Formidable open source project",
         "image": "nukeCarousel.jpg",
         "url": "https://github.com/FormidableLabs/nuka-carousel",
         "github": "https://github.com/FormidableLabs/nuka-carousel"
@@ -175,7 +175,7 @@
       {
         "title": "Spectecal",
         "year": "2018",
-        "category": "Contribution",
+        "category": "Formidable open source project",
         "image": "spectacle.jpg",
         "url": "https://formidable.com/open-source/spectacle/",
         "github": "https://github.com/FormidableLabs/spectacle"

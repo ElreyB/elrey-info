@@ -1,57 +1,46 @@
-import React, { Component } from "react";
+import React from "react";
 
-class About extends Component {
-  render() {
-    if (this.props.data) {
-      var name = this.props.data.name;
-      var profilepic = "images/" + this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone = this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
+const About = ({ data, ...props }) => {
+  let profilepic, bio, resumeDownload;
+  if (data) {
+    profilepic = "images/" + data.image;
+    bio = data.bio;
+    resumeDownload = data.resumedownload;
+  }
 
-    // const bioP = bio.join("\n");
+  const bioHtml = bio => bio && bio.map((info, i) => <p key={i}>{info}</p>);
 
-    console.log(bio);
-    const bioHtml = bio => bio && bio.map((info, i) => <p key={i}>{info}</p>);
-
-    return (
-      <section id="about">
-        <div className="row">
-          <div className="three columns">
-            <img
-              className="profile-pic"
-              src={profilepic}
-              alt="Elrey Belmonti Profile Pic"
-            />
-          </div>
-          <div className="nine columns main-col">
-            <h2>About Me</h2>
-            {bioHtml(bio)}
-            <div className="row">
-              <div className="columns download">
-                <p>
-                  <a
-                    href={resumeDownload}
-                    className="button"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa fa-download"></i>Download Resume
-                  </a>
-                </p>
-              </div>
+  return (
+    <section id="about">
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="profile-pic"
+            src={profilepic}
+            alt="Elrey Belmonti Profile Pic"
+          />
+        </div>
+        <div className="nine columns main-col">
+          <h2>About Me</h2>
+          {bioHtml(bio)}
+          <div className="row">
+            <div className="columns download">
+              <p>
+                <a
+                  href={resumeDownload}
+                  className="button"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-download"></i>Download Resume
+                </a>
+              </p>
             </div>
           </div>
         </div>
-      </section>
-    );
-  }
-}
+      </div>
+    </section>
+  );
+};
 
 export default About;

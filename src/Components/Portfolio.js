@@ -1,30 +1,29 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Portfolio extends Component {
-  render() {
-    if (this.props.data) {
-      const sortProjects = this.props.data.projects.sort(
-        (a, b) => b.year - a.year
-      );
-      var projects = sortProjects.map(function(projects) {
-        var projectImage = "images/portfolio/" + projects.image;
+const Portfolio = ({ data, ...props }) => {
+  let projects;
+  if (data) {
+    const sortProjects = data.projects.sort((a, b) => b.year - a.year);
+    projects = sortProjects.map(
+      ({ image, title, category, github, url, year }) => {
+        const projectImage = "images/portfolio/" + image;
         return (
-          <div key={projects.title} className="columns portfolio-item">
+          <div key={title} className="columns portfolio-item">
             <div className="item-wrap">
-              <img alt={projects.title} src={projectImage} />
+              <img alt={title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>{`${projects.title} - ${projects.year}`}</h5>
-                  <p>{projects.category}</p>
+                  <h5>{`${title} - ${year}`}</h5>
+                  <p>{category}</p>
                 </div>
-                {projects.github ? (
+                {github ? (
                   <div id="linkWrapper">
                     <div className="twoLinks">
                       <a
-                        href={projects.url}
-                        title={projects.title}
+                        href={url}
+                        title={title}
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                       >
                         <div className="link-icon">
                           <i className="fa fa-link" aria-hidden="true"></i>
@@ -33,10 +32,10 @@ class Portfolio extends Component {
                     </div>
                     <div className="twoLinks">
                       <a
-                        href={projects.github}
-                        title={projects.title}
+                        href={github}
+                        title={title}
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                       >
                         <div className="link-icon">
                           <i className="fa fa-github" aria-hidden="true"></i>
@@ -47,10 +46,10 @@ class Portfolio extends Component {
                 ) : (
                   <div className="oneLinks">
                     <a
-                      href={projects.url}
-                      title={projects.title}
+                      href={url}
+                      title={title}
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <div className="link-icon">
                         <i className="fa fa-link" aria-hidden="true"></i>
@@ -62,26 +61,26 @@ class Portfolio extends Component {
             </div>
           </div>
         );
-      });
-    }
-
-    return (
-      <section id="portfolio">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
-
-            <div
-              id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
-            >
-              {projects}
-            </div>
-          </div>
-        </div>
-      </section>
+      }
     );
   }
-}
+
+  return (
+    <section id="portfolio">
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h1>Check Out Some of My Works.</h1>
+
+          <div
+            id="portfolio-wrapper"
+            className="bgrid-quarters s-bgrid-thirds cf"
+          >
+            {projects}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Portfolio;
