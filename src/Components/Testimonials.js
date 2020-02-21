@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Testimonials extends Component {
-  render() {
+const Testimonials = ({data, ...props}) => {
+  let testimonials
 
-    if(this.props.data){
-      var testimonials = this.props.data.testimonials.map(function(testimonials){
-        return  <li key={testimonials.user}>
+    if(data){
+      const {testimonials: testimonialsArr}
+      testimonials = data.testimonialsArr.map(({user,text }) => {
+        return  <li key={user}>
             <blockquote>
-               <p>{testimonials.text}</p>
-               <cite>{testimonials.user}</cite>
+               <p>{text}</p>
+               <cite>{user}</cite>
             </blockquote>
          </li>
       })

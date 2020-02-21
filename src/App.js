@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
 import Header from "./Components/Header";
@@ -22,7 +22,7 @@ const App = () => {
       success: function(data) {
         const { main, portfolio, resume } = data;
         setResumeData({ main, portfolio, resume });
-      }.bind(this),
+      },
       error: function(xhr, status, err) {
         console.log(err);
         alert(err);
