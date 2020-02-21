@@ -256,7 +256,6 @@ h6 a {
 h1 {
   font-size: 38px;
   line-height: 42px;
-  margin-bottom: 12px;
   letter-spacing: -1px;
 }
 h2 {
@@ -1180,6 +1179,8 @@ properly.
 
 /* added css */
 
+
+
 h3::selection,
 h2::selection,
 p::selection,
@@ -1187,7 +1188,7 @@ p::selection,
 .info span::selection,
 .date::selection,
 .responsive-headline::selection,
-.responsive-headline span::selection {
+#occupation::selection {
   color: white;
   background-color: black;
 }

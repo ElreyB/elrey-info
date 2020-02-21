@@ -6,7 +6,6 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
-      // var city = this.props.data.address.city;
       var networks = this.props.data.social.map(function(network) {
         return (
           <li key={network.name}>
@@ -49,24 +48,15 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-            {/* <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
-            </li> */}
-            {/* <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li> */}
           </ul>
         </nav>
 
         <div className="row banner fadeIn-med">
           <div className="banner-text">
-            <h1 className="responsive-headline">
-              {name} <span id="occupation">{occupation}</span>
-            </h1>
+            <div id="headline-wrapper">
+              <h1 className="responsive-headline">{name}</h1>
+              <span id="occupation">{occupation}</span>
+            </div>
             <h3 className="fadeIn-slow" id="about-h3">
               {description}
             </h3>
