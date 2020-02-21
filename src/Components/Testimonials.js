@@ -34,6 +34,6 @@ const Testimonials = ({data, ...props}) => {
    </section>
     );
   }
-}
+
 
 export default Testimonials;
